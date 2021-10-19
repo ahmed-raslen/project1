@@ -1,0 +1,378 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.menu span
+{
+    color: #ff1a4b;
+    display: inline; 
+}
+.div2 span
+{
+    color: #ff1a4b;
+    display: inline;
+}
+.menu p
+{
+    font-size: 45px;
+    font-family: 'Courgette', cursive;
+    color: white;
+    margin: 30px;
+    text-decoration: underline white;
+    display: inline;
+}
+li ,ul
+{   
+    display: inline;
+    list-style: none;
+    margin-left: 80px;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    transition: 0.7s;
+}
+a:hover
+{
+    color: #ff1a4b;
+}
+#btn1
+{
+    outline: none;
+    border: none;
+    background: #ff1a4b;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 150px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+#btn1:hover
+{
+    transform: scale(1.2);
+}
+nav
+{
+    position: relative;
+    top: 10px;
+}
+.div2
+{
+    
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 150px;
+    padding-left: 80px;
+}
+.div2 ,#p-small ,#my-name ,#p-norm
+{
+    font-family: sans-serif;
+    display: block;
+    margin-top: 8px;
+}
+#p-small
+{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#my-name
+{
+    font-size: 55px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#p-norm
+{
+    font-size: 27px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+input[type="text"]
+{
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    width: 270px;
+    padding: 11px 25px;
+    font-size: 17px;
+}
+.div2 #btn2
+{
+    outline: none;
+    border: none;
+    background: #ff1a4b;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    border: #ff1a4b 2px solid;
+    font-weight: bold;
+    border-radius: 0 25px 0 25px;
+    padding: 11px 23px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn2:hover
+{
+    color: white;
+    background: rgb(24, 21, 21);
+}
+.search-box
+{
+    position: relative;
+    top: 40px;
+}
+.bcg2
+{
+    background: rgb(24, 21, 21);
+    height: 660px;
+    position: relative;
+    top: 295px;
+    box-shadow: inset 0 0 1em black;
+}
+.img2
+{
+    display: inline-block;
+    height: 550px;
+    width: 450px;
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.next-img
+{
+    display: inline-block;
+    height: 450px;
+    width: 550px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 130px;
+}
+.next-img h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+       
+}
+.next-img p
+{
+    display: inline;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.next-img span
+{
+    color: #ff1a4b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.next-img h4
+{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+}
+.next-img input[type="button"]
+{
+    outline: none;
+    border: none;
+    background: #ff1a4b;
+    color: white;
+    font-size: 16px;
+    border: #ff1a4b 2px solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.next-img input[type="button"]:hover
+{
+    transform: scale(1.1);
+    background: rgb(24, 21, 21);
+}
+.bcg3
+{
+    background: black;
+    height: 600px;
+    position: relative;
+    top: 290px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container
+{
+    position: relative;
+    top: 115px;
+}
+.bcg3 h1
+{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+.bcg3 .bars
+{
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    background: rgb(24, 21, 21);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.bcg3 .user
+{
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    background: rgb(24, 21, 21);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.bcg3 .bell
+{
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    background: rgb(24, 21, 21);
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.container i
+{
+    color: #ff1a4b;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.container p
+{
+    font-size: 19px;
+    color: gray;
+    margin-top: 30px;
+}
+.container input[type="button"]
+{
+    outline: none;
+    border: none;
+    background: #ff1a4b;
+    color: white;
+    font-size: 16px;
+    border: #ff1a4b 2px solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.container input[type="button"]:hover
+{
+    transform: scale(1.1);
+    background: rgb(24, 21, 21);
+}
+.bcg4
+{
+    height: 270px;
+    background: rgb(24, 21, 21);
+    box-shadow: inset 0 0 1em black;
+    position: relative;
+    top: 290px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+.bcg4 p
+{
+    color: white;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 50px;
+}
+.bcg4 input[type="button"]
+{
+    outline: none;
+    border: none;
+    background: #ff1a4b;
+    color: white;
+    font-size: 16px;
+    border: #ff1a4b 2px solid;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.bcg4 input[type="button"]:hover
+{
+    transform: scale(1.1);
+}
+.bcg5
+{
+    background: black;
+    height: 290px;
+    margin-top: 290px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bcg5 h2
+{
+    color: white;
+    padding-top: 90px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.bcg5 p
+{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.bcg5 i
+{
+    color: #ff1a4b;
+    background: black;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    position: relative;
+    left: 42.5%;
+}
+.bcg5 i:hover
+{
+    transform: scale(1.3);
+}
